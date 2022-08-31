@@ -1,7 +1,7 @@
 const express = require('express')
 
 const userRouter = require("./users/users.router").router
-
+const authRouter = require("./auth/auth.route").router
 const app = express()
 
 //! esta configuracion es para utilizar el req.body
@@ -13,6 +13,7 @@ app.get('/', (req, res) => {
 
 
 app.use("/api/v1/users", userRouter)
+app.use("/api/v1/auth", authRouter)
 
 app.listen(8000, () => {
     console.log('server started at port 8000')

@@ -3,16 +3,16 @@ const {hashPassword} = require('../tools/crypt')
 
 const userDB = [
     {
-        "id": "4c1e62a8-2472-46fd-906c-6b7f2e78e4c0",
+        "id": "8d2e4466-2e1f-4c10-bae8-71a499bf5661",
         "first_name": "Alexander",
         "last_name": "Toscano",
         "email": "alex123@gmail.com",
-        "password": "$2b$10$nifbNAVTc5oFKmzotQcU/uI8relj4RQj998tUng1LUm2RAQ1eD4Nu",
+        "password": "$2b$10$k1.qpRhAU27OGjajFU7Mc.sTOw4JlG5DgaLsD1EcY1kQnX.Zaja.6",
         "phone": "+5426483354521",
         "birthday_date": "19/02/2022",
         "rol": "normal",
-        "profile_image": "c/images/image.png",
-        "country": "colombia",
+        "profile_image": "/c/images/image.png",
+        "country": "ecuador",
         "is_active": true,
         "verified": false
       }

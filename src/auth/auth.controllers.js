@@ -14,4 +14,11 @@ const  loginUser = (email, password)=> {
     }
     return false
 }
-console.log(loginUser("alex123@gmail.com", "maximos" ))
+
+//? comprobacion de de usuario y contraseña
+// console.log(loginUser("alex123@gmail.com", "maximos" ))
+
+
+module.exports = {
+    loginUser
+}
